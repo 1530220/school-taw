@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>PowerAdmin2</name>
+	<version>1.0.2</version>
+	<releaseDate>09/11/2018</releaseDate>
+	<author>JoomlaShine.com</author>
+	<authorEmail>support@joomlashine.com</authorEmail>
+	<authorUrl>http://www.joomlashine.com</authorUrl>
+	<copyright>Copyright (C) 2013 JoomlaShine.com. All Rights Reserved.</copyright>
+	<license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>JSN_POWERADMIN_XML_DESCRIPTION</description>
+	<group>jsnextfw</group>
+	<scriptfile>subinstall.php</scriptfile>
+	<subinstall>
+		<!-- Remove JSN PowerAdmin Free (gen. 1) and all its dependencies
+		<extension remove="1" type="component" name="com_poweradmin" client="administrator" />
+		<extension remove="1" type="module" name="mod_poweradmin" client="administrator" />
+		<extension remove="1" type="plugin" folder="jsnpoweradmin" name="content" />
+		<extension remove="1" type="plugin" folder="jsnpoweradmin" name="contact" />
+		<extension remove="1" type="plugin" folder="jsnpoweradmin" name="users" />
+		<extension remove="1" type="plugin" folder="jsnpoweradmin" name="weblinks" />
+		<extension remove="1" type="plugin" folder="jsnpoweradmin" name="pagebuilder" />
+		<extension remove="1" type="plugin" folder="system" name="jsnpoweradmin" /> -->
+
+		<!-- Install required dependencies for JSN PowerAdmin (gen. 2) -->
+		<extension type="plugin" folder="system" name="jsnextfw" identified_name="ext_framework2" publish="1" lock="1">
+			JSN Extension Framework gen. 2 System Plugin
+		</extension>
+		<extension type="module" name="mod_poweradminbar" client="administrator" title="Admin Bar" position="menu" publish="1" ordering="0" dir="administrator/modules/mod_poweradminbar" />
+		<extension type="plugin" folder="content" name="pa2pagenavigation" publish="1" lock="1" dir="plugins/content/pa2pagenavigation" />
+		<extension type="plugin" folder="content" name="pa2vote" publish="1" lock="1" dir="plugins/content/pa2vote" />
+		<extension type="plugin" folder="poweradmin" name="powerpack" publish="1" lock="1" dir="plugins/poweradmin/powerpack" />
+		<extension type="plugin" folder="system" name="poweradmin2" publish="1" lock="1" dir="plugins/system/poweradmin2" />
+	</subinstall>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">database/mysql/install.mysql.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">database/mysql/uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+	<administration>
+		<menu link="option=com_poweradmin2" option="com_poweradmin2" alt="JSN_PA2_MENU_TEXT">
+			JSN_PA2_MENU_TEXT
+		</menu>
+		<submenu>
+			<menu link="option=com_poweradmin2" alt="JSN_PA2_MENU_MANAGE_TEXT">
+				JSN_PA2_MENU_MANAGE_TEXT
+			</menu>
+			<menu link="option=com_poweradmin2&amp;view=search" alt="JSN_PA2_MENU_SEARCH_TEXT">
+				JSN_PA2_MENU_SEARCH_TEXT
+			</menu>
+			<menu link="option=com_poweradmin2&amp;view=reset" alt="JSN_PA2_MENU_RESET_TEXT">
+				JSN_PA2_MENU_RESET_TEXT
+			</menu>
+			<menu link="option=com_poweradmin2&amp;view=configuration" alt="JSN_PA2_MENU_CONFIGURARTION_TEXT">
+				JSN_PA2_MENU_CONFIGURARTION_TEXT
+			</menu>
+			<menu link="option=com_poweradmin2&amp;view=about" alt="JSN_PA2_MENU_ABOUT_TEXT">
+				JSN_PA2_MENU_ABOUT_TEXT
+			</menu>
+			<menu link="option=com_poweradmin2&amp;view=help" alt="JSN_PA2_MENU_HELP_TEXT">
+				JSN_PA2_MENU_HELP_TEXT
+			</menu>
+		</submenu>
+		<files folder="administrator/components/com_poweradmin2">
+			<folder>assets</folder>
+			<folder>config</folder>
+			<folder>controllers</folder>
+			<folder>database</folder>
+			<folder>helpers</folder>
+			<folder>language</folder>
+			<folder>libraries</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>access.xml</filename>
+			<filename>bootstrap.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>dependency.php</filename>
+			<filename>jsninstaller.php</filename>
+			<filename>poweradmin2.php</filename>
+			<filename>poweradmin2.defines.php</filename>
+		</files>
+		<languages folder="administrator/components/com_poweradmin2/language/admin">
+			<language tag="en-GB">en-GB/en-GB.com_poweradmin2.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_poweradmin2.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.mod_poweradminbar.ini</language>
+			<language tag="en-GB">en-GB/en-GB.mod_poweradminbar.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.plg_content_pa2pagenavigation.ini</language>
+			<language tag="en-GB">en-GB/en-GB.plg_content_pa2pagenavigation.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.plg_content_pa2vote.ini</language>
+			<language tag="en-GB">en-GB/en-GB.plg_content_pa2vote.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.plg_poweradmin_powerpack.ini</language>
+			<language tag="en-GB">en-GB/en-GB.plg_poweradmin_powerpack.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.plg_system_poweradmin2.ini</language>
+			<language tag="en-GB">en-GB/en-GB.plg_system_poweradmin2.sys.ini</language>
+		</languages>
+	</administration>
+</extension>

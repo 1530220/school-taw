@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="administrator" method="upgrade">
+	<name>MOD_POWERADMINBAR</name>
+	<author>JoomlaShine.com</author>
+	<releaseDate>09/11/2018</releaseDate>
+	<authorEmail>support@joomlashine.com</authorEmail>
+	<authorUrl>http://www.joomlashine.com</authorUrl>
+	<copyright>Copyright (c) 2012 - JoomlaShine.com</copyright>
+	<license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0.2</version>
+	<description>MOD_POWERADMINBAR_XML_DESC</description>
+	<files>
+		<folder>tmpl</folder>
+		<filename>index.html</filename>
+		<filename module="mod_poweradminbar">mod_poweradminbar.php</filename>
+		<filename>mod_poweradminbar.xml</filename>
+	</files>
+</extension>

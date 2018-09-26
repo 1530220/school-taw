@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,6DAA8D;EAC1D,YAAY,EAAE,CAAC;;AAEnB,yBAA0B;EAC1B,oBAAqB;IACjB,MAAM,EAAE,CAAC;AAGb,gDAAiD;EACjD,0FAA2F;IACvF,OAAO,EAAE,SAAS",
+"sources": ["../scss/_styles.scss"],
+"names": [],
+"file": "template.css"
+}

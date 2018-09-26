@@ -1,0 +1,65 @@
+#sunfw_section_header {
+  background-color: #fff;
+}
+#sunfw_section_header .btn-default, #sunfw_section_header .btn-primary {
+  padding-top: 11px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-weight: 400;
+  font-size: 14px;
+}
+#sunfw_section_header .btn-default {
+  background-color: #fff;
+  border-top-width: 0px;
+  border-top-style: solid;
+  border-top-color: rgba(127, 127, 127, 0.3);
+  border-right-width: 0px;
+  border-right-style: solid;
+  border-right-color: rgba(127, 127, 127, 0.3);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #8e44ad;
+  border-left-width: 0px;
+  border-left-style: solid;
+  border-left-color: rgba(127, 127, 127, 0.3);
+  -webkit-box-shadow: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 0px 0px;
+  color: #4d4d4d;
+}
+#sunfw_section_header .btn-default:hover {
+  background-color: #8e44ad;
+  border-color: main;
+  color: #fff;
+}
+#sunfw_section_header .btn-primary {
+  background-color: #8e44ad;
+  border-width: 0px;
+  border-style: solid;
+  color: #fff;
+}
+#sunfw_section_header .btn-primary:hover {
+  background-color: #fff;
+  color: #8e44ad;
+}
+#sunfw_section_menu {
+  background-color: #fff;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #d8d8d8;
+  border-bottom-style: initial;
+  border-bottom-color: #ddd;
+}
+#sunfw_section_copyright {
+  background-color: #fff;
+}
+#sunfw_section_footer {
+  background-color: #fff;
+}
+#sunfw_section_content-bottom {
+  background-color: #f6f6f6;
+}

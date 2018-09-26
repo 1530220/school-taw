@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_poweradmin2">
+	<section name="component">
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+		<action
+			name="core.view.manage"
+			title="JSN_POWERADMIN_USE_SITE_MANAGER"
+			description="JSN_POWERADMIN_USE_SITE_MANAGER_DESC"
+		/>
+		<action
+			name="core.view.search"
+			title="JSN_POWERADMIN_USE_SITE_SEARCH"
+			description="JSN_POWERADMIN_USE_SITE_SEARCH_DESC"
+		/>
+		<action
+			name="core.view.reset"
+			title="JSN_POWERADMIN_USE_SITE_RESET"
+			description="JSN_POWERADMIN_USE_SITE_RESET_DESC"
+		/>
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+	</section>
+</access>

@@ -1,0 +1,50 @@
+label{
+	font-weight: normal;
+	span.star{
+		color: #F95050;
+	}
+}
+select[multiple], select[size],
+select, textarea, 
+input[type="text"], 
+input[type="password"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="date"], 
+input[type="month"], 
+input[type="time"], 
+input[type="week"], 
+input[type="number"], 
+input[type="email"], 
+input[type="url"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="color"]{
+    height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+	color: #1f1f1f;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #dcdcdc;
+    transition: border-color ease-in-out .15s;
+    outline: 0;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	box-shadow: none;
+    &:focus{
+    	border-color: #00A0FF;
+    }
+    &[aria-invalid="true"]{
+    	border-color: #F95050;
+    }
+}
+textarea {
+	height: auto;
+}
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly]{
+	cursor: not-allowed;
+    background-color: #F0F2F5;
+}
+
+

@@ -1,0 +1,25 @@
+/*!
+ * Sun Framework
+ * Copyright 2016 Joomlashine.
+ * @file _modules.scss
+ */
+
+
+//
+// Breadcrumbs
+// --------------------------------------------------
+.sunfw-breadcrumb {
+  padding: 40px 0;
+  .breadcrumb {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    > .active {
+      color: #FFF;
+    }
+  }
+}
+
+//
+// Pagination
+// --------------------------------------------------

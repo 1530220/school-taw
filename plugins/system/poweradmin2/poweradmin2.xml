@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_JSNPOWERADMIN</name>
+	<author>JoomlaShine.com</author>
+	<releaseDate>09/11/2018</releaseDate>
+	<authorEmail>support@joomlashine.com</authorEmail>
+	<authorUrl>http://www.joomlashine.com</authorUrl>
+	<copyright>Copyright (c) 2012 - JoomlaShine.com</copyright>
+	<license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0.2</version>
+	<description>PLG_SYSTEM_JSNPOWERADMIN_XML_DESC</description>
+	<files>
+		<folder>assets</folder>
+		<folder>overrides</folder>
+		<filename>index.html</filename>
+		<filename plugin="poweradmin2">poweradmin2.php</filename>
+		<filename>poweradmin2.xml</filename>
+	</files>
+</extension>

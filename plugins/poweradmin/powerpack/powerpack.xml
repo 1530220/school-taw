@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="poweradmin" method="upgrade">
+	<name>PLG_POWERADMIN_POWERPACK</name>
+	<author>JoomlaShine.com</author>
+	<releaseDate>09/11/2018</releaseDate>
+	<authorEmail>support@joomlashine.com</authorEmail>
+	<authorUrl>http://www.joomlashine.com</authorUrl>
+	<copyright>Copyright (c) 2012 - JoomlaShine.com</copyright>
+	<license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0.2</version>
+	<description>PLG_POWERADMIN_POWERPACK_XML_DESC</description>
+	<files>
+		<filename plugin="powerpack">powerpack.php</filename>
+		<filename>powerpack.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>

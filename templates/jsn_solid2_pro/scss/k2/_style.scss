@@ -1,0 +1,405 @@
+.itemListView {
+  div.catItemHeader {
+    span.catItemDateCreated, .catItemAuthor {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 24px;
+      @include rtl-padding-right(10px);
+      i {
+        @include rtl-padding-right(5px);
+      }
+    }
+    h3.catItemTitle {
+      padding-bottom: 5px;
+	  line-height: 24px;
+    }
+  }
+  div.catItemLinks {
+    margin-bottom: 0;
+    > div {
+      display: inline-block;
+      @include rtl-padding-right(15px);
+    }
+    i {
+      @include rtl-padding-right(5px);
+    }
+  }
+  div.catItemView {
+    margin-bottom: 20px;
+  }
+  .catItemImageBlock {
+    margin-bottom: 0;
+  }
+  div.catItemIntroText {
+    padding-bottom: 0;
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.itemView {
+  .info-item {
+    > span, > div {
+      display: inline-block;
+      @include rtl-padding-right(10px);
+    }
+    .itemRatingBlock {
+      padding: 0;
+      .itemRatingForm {
+        margin-bottom: -5px;
+      }
+    }
+    i {
+      @include rtl-padding-right(5px);
+    }
+  }
+  div.itemToolbar {
+    margin: 15px 0;
+  }
+  #comment-form {
+    .form-group {
+      label {
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .itemBackToTop {
+    padding-top: 20px;
+  }
+}
+.tagView {
+  div.tagItemHeader span.tagItemDateCreated {
+    font-size: 11px;
+    i {
+      @include rtl-padding-right(5px);
+    }
+  }
+  div.tagItemView {
+    margin-bottom: 30px;
+  }
+}
+
+// override for template
+div.itemTwitterButton {
+	margin-top: 0;
+}
+h3.catItemTitle {
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0 0 10px;
+}
+.itemView {
+  h2.itemTitle {
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 0px !important;
+  }
+  .jsn-article-toolbar {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+	background: transparent;
+    .itemToolbar {
+      margin: 0 0 7px;
+      padding: 0 0 7px;
+      border-bottom: 1px solid #f0f0f0;
+	  background: transparent;
+	  border-radius: 0;
+      ul {
+        @include rtl-text-align-left();
+        li {
+          padding: 0 5px;
+          &:first-child {
+            @include rtl-padding-left(0);
+          }
+        }
+        #fontDecrease, #fontIncrease {
+          text-align: center;
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+    .jsn-article-info {
+      > p {
+        margin: 0 0 7px;
+        padding: 0 0 7px;
+        border-bottom: 1px solid #f0f0f0;
+      }
+    }
+    .itemDateCreated {
+      font-size: inherit;
+      color: inherit;
+    }
+  }
+  div.itemCommentsForm {
+    h3 {
+      font-size: 20px;
+    }
+    form input#submitCommentButton {
+      background-color: #323232;
+      border: 1px solid #323232;
+      color: #fff;
+      display: inline-block;
+      text-align: center;
+      font-size: 13px;
+      height: 45px;
+      line-height: 41px;
+      letter-spacing: 0px;
+      padding: 0 20px;
+      border-radius: 2px;
+      text-transform: uppercase !important;
+    }
+    form input.inputbox {
+      @include box-shadow(none);
+    }
+  }
+  .itemAuthorLatest, .itemRelated {
+    h3 {
+      font-size: 20px;
+    }
+  }
+}
+div.itemAuthorBlock div.itemAuthorDetails,
+div.userBlock {
+    display: flex;
+	display: -webkit-flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+	.itemAuthorName,
+	h2 {
+		display: flex;
+		display: -webkit-flex;
+		align-self: flex-end;
+	}
+}
+#k2Container:not(.itemView,.itemListView) .jsn-article-toolbar {
+    display: flex;
+	display: -webkit-flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+	padding: 5px 10px;
+	.jsn-article-info p {
+		margin-bottom: 0;
+	}
+}
+#k2Container.latestView,
+#k2Container.tagView,
+#k2Container.latestItemView {
+	.jsn-article-toolbar {
+		justify-content: flex-end;
+	}
+}
+.tagView {
+  h2 {
+    font-size: 20px;
+  }
+  span.tagItemImage {
+    margin-right: 20px;
+  }
+}
+.userView {
+  span.userItemImage {
+    margin-right: 20px;
+  }
+}
+.media {
+	display: flex;
+	display: -webkit-flex; 
+	.media-left {
+		flex: 0 0 30%;
+	}
+}
+#k2Container {
+  background: #fff;
+  padding : 15px;
+  div.itemImageBlock {
+    padding: 0;
+  }
+  .jsn-item-meta {
+	.jsn-article-toolbar {
+		padding: 5px 10px;
+	}
+  }
+  .itemIntroText {
+    font-size: 14px;
+    font-weight: 400;
+    color: inherit;
+  }
+  .itemDateModified {
+    @include rtl-text-align-right();
+  }
+  .itemRatingBlock span {
+    line-height: 25px;
+  }
+  div.itemContentFooter {
+    margin: 0;
+    padding: 0;
+  }
+  div.itemLinks {
+    margin-top: 0px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 5px;
+    > div {
+      margin-bottom: 5px;
+    }
+  }
+  div.itemNavigation {
+    padding: 0 0 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    .itemNavigationTitle {
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: initial;
+      margin-top: 0;
+    }
+  }
+  div.itemRelated {
+    h3 {
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: initial;
+      margin-top: 0;
+    }
+  }
+}
+#k2Container.k2AccountPage {
+  padding-top: 10px;
+  th.k2ProfileHeading {
+    background: transparent;
+  }
+}
+div.k2AccountPage {
+  table.admintable td.key, .k2AccountPage table.admintable td.paramlist_key {
+    font-size: 14px;
+  }
+  table tr {
+    padding-bottom: 10px;
+    display: block;
+    td label {
+      @include rtl-padding-right(10px);
+    }
+  }
+  #genderm-lbl, #genderf-lbl {
+    @include rtl-padding-left(50px);
+  }
+  input {
+    padding: 3px 12px;
+  }
+}
+div.k2ItemsBlock {
+  ul li div.moduleItemIntrotext a.moduleItemImage {
+    display: block;
+    img {
+      float: none;
+    }
+  }
+}
+div.k2CalendarBlock {
+  height: auto;
+  table.calendar {
+    width: 100%;
+  }
+}
+div.k2CategoriesListBlock {
+  ul li {
+    margin-bottom: 8px;
+  }
+}
+div.userItemView {
+  margin-bottom: 30px;
+  div.userItemLinks {
+    margin-bottom: 5px;
+  }
+}
+div.k2Pagination {
+  margin-top: 0;
+  ul li a {
+    padding: 5px 10px;
+  }
+}
+.itemSocialSharing {
+  div.itemFacebookButton {
+    width: auto;
+  }
+  .itemGooglePlusOneButton {
+    float: left;
+  }
+}
+div.k2AccountPage {
+  table.admintable td.key, table.admintable td.paramlist_key {
+    background: transparent;
+    border: none;
+  }
+  table.admintable {
+    td input, td textarea {
+      margin-left: 25px;
+    }
+    input[type="file"] {
+      padding: 0;
+    }
+    td .radio input {
+      margin-left: -20px;
+    }
+  }
+}
+form#user-registration .control-label,
+#member-registration .control-label {
+  text-align: left;
+}
+
+.latestItemsCategory {
+  .k2FeedIcon {
+    @include rtl-float-right();
+  }
+  .latestItemsCategoryImage {
+    @include rtl-float-left();
+  }
+}
+[class*="ItemImageBlock"] span[class*="ItemImage"] {
+	margin-top: 8px;
+}
+div.userBlock img {
+	height: 100% !important;
+}
+
+@media (max-width: 768px) {
+	.media .media-left {
+		flex: 0 0 10%;
+	}
+}
+@media (max-width: 480px) {
+  div.k2AccountPage {
+    table {
+      width: 100%;
+      display: block;
+      text-align: left;
+      th, td {
+        width: 100%;
+        display: block;
+      }
+      label {
+        text-align: left;
+        display: block;
+        float: none;
+        clear: both;
+      }
+      input, textarea {
+        width: 100%;
+        border: 1px solid #ccc;
+      }
+    }
+    tbody, table.admintable td.key, table.admintable td.paramlist_key {
+      width: 100%;
+      display: block;
+    }
+    #genderm-lbl, #genderf-lbl {
+      padding: 0;
+      input {
+        margin-left: -45px;
+      }
+    }
+  }
+}

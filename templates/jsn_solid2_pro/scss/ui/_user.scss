@@ -1,0 +1,26 @@
+/* ============ LOGIN MODULE ============ */
+.form-control {
+	height: auto;
+    padding: 8px 12px;
+	box-shadow: none;
+}
+.form-control,
+.input-group-addon {
+	border-color: #D1D6DE;
+	border-radius: 0;
+}
+#login-form {
+	.pretext {
+		margin-bottom: 20px;
+	}
+	.posttext {
+		margin-top: 20px;
+	}
+	ul {
+		padding: 0;
+		margin: 15px 0 0;
+		li {
+			list-style: none;
+		}
+	}
+}

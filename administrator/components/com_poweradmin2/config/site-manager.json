@@ -1,0 +1,51 @@
+{
+	"groups": [
+		{
+			"title": "JSN_POWERADMIN_CONFIG_GENERAL",
+			"controls": {
+				"position_chooser_enhance": {
+					"type": "radio",
+					"inline": true,
+					"label": "JSN_POWERADMIN_POSITION_CHOOSER_ENHANCE",
+					"hint": "JSN_POWERADMIN_POSITION_CHOOSER_ENHANCE_DESC",
+					"options": [
+						{
+							"label": "JNO",
+							"value": 0
+						},
+						{
+							"label": "JYES",
+							"value": 1
+						}
+					],
+					"default": 1,
+					"filter": "uint",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				},
+				"custom_assets_enhance": {
+					"type": "radio",
+					"inline": true,
+					"label": "JSN_POWERADMIN_CONFIG_USE_CUSTOM_ASSETS",
+					"hint": "JSN_POWERADMIN_CONFIG_USE_CUSTOM_ASSETS_DESC",
+					"options": [
+						{
+							"label": "JNO",
+							"value": 0
+						},
+						{
+							"label": "JYES",
+							"value": 1
+						}
+					],
+					"default": 1,
+					"filter": "uint",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				}
+			}
+		}
+	]
+}

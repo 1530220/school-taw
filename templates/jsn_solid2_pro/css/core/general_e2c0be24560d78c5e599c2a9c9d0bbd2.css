@@ -1,0 +1,118 @@
+body {
+  color: #4d4d4d;
+  font-family: Archivo Narrow;
+  font-size: 14px;
+  line-height: 1.5;
+}
+a {
+  color: #fc6858;
+}
+a:hover, a:focus {
+  color: #fc6858;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Archivo Narrow;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #4d4d4d;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+h1, .h1 {
+  font-size: 28px;
+}
+h2, .h2 {
+  font-size: 23px;
+}
+h3, .h3 {
+  font-size: 19px;
+}
+h4, .h4 {
+  font-size: 14px;
+}
+h5, .h5 {
+  font-size: 11px;
+}
+h6, .h6 {
+  font-size: 10px;
+}
+.btn-default {
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 2px;
+  border-right-width: 1px;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-top-color: rgba(127, 127, 127, 0.3);
+  border-left-color: rgba(127, 127, 127, 0.3);
+  border-bottom-color: #fc6858;
+  border-right-color: rgba(127, 127, 127, 0.3);
+}
+.btn-default {
+  background: #fff;
+  font-size: 14px;
+  color: #4d4d4d;
+  font-weight: 400;
+  letter-spacing: 0px;
+  -webkit-box-shadow: 0px 0px 0px #000;
+  box-shadow: 0px 0px 0px #000;
+}
+.btn-default:hover, .btn-default:focus {
+  color: #fff;
+  border-color: #76990c;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.active {
+  background-color: #fc6858;
+}
+.btn-primary {
+  border-top-style: initial;
+  border-left-style: initial;
+  border-bottom-style: initial;
+  border-right-style: initial;
+  border-top-color: rgba(127, 127, 127, 0.3);
+  border-left-color: rgba(127, 127, 127, 0.3);
+  border-bottom-color: #fc6858;
+  border-right-color: rgba(127, 127, 127, 0.3);
+}
+.btn-primary {
+  background: #fc6858;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  -webkit-box-shadow: 0px 0px 0px #000;
+  box-shadow: 0px 0px 0px #000;
+}
+.btn-primary:hover, .btn-primary:focus {
+  color: #fff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.active {
+  background-color: #ff270f;
+}
+.btn-primary, .btn-default {
+  border-top-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+}
+.btn-primary, .btn-default {
+  padding-top: 9px;
+}
+.btn-primary, .btn-default {
+  padding-right: 20px;
+}
+.btn-primary, .btn-default {
+  padding-bottom: 9px;
+}
+.btn-primary, .btn-default {
+  padding-left: 20px;
+}
+body {
+  background-image: url('http://res.cloudinary.com/bravebits/image/upload/v1478628522/Soiid2/bg-body.png');
+}

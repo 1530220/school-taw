@@ -1,0 +1,418 @@
+// Login
+legend {
+  font-size: 16px;
+  color: #1f2f41;
+  font-weight: bold;
+  padding: 0 0 6px 0;
+  margin-bottom: 10px;
+  border-color: #dcdcdc;
+}
+
+.login {
+  border-radius: 0;
+  // display: flex;
+  // justify-content: center;
+  .sunfw-login-nav {
+	margin-bottom: -25px;
+  }
+  > form {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    @include box-shadow(none);
+    padding: 0;
+    background: transparent;
+    input[type="text"],
+    input[type="password"] {
+      min-width: 280px;
+    }
+  }
+  .login-description {
+    img {
+      display: block;
+      margin: 20px 0;
+    }
+  }
+  .form-horizontal .control-label {
+    @include rtl-margin-right(10px);
+    padding-top: 0;
+    label{
+      // line-height: 40px;
+    }
+  }
+  .control-group {
+    #remember {
+      width: auto;
+      vertical-align: middle;
+      margin: 0;
+    }
+    label {
+      margin: 0;
+      vertical-align: middle;
+    }
+  }
+  .nav.nav-stacked {
+    > li > a {
+      border: none;
+      background: transparent;
+      padding-bottom: 0;
+      line-height: 23px;
+      &:hover {
+        border: none;
+        background: transparent;
+        @include box-shadow(none);
+      }
+    }
+  }
+}
+
+.profile-edit,
+.login,
+#user-registration,
+#member-registration {
+  .control-label {
+    @include rtl-float-left();
+    width: 82px;
+    padding-top: 9px;
+    @include rtl-text-align-right();
+    clear: left;
+  }
+  .controls {
+    @include rtl-margin-left(90px);
+    input, textarea, .chzn-container {
+      &:-moz-placeholder {
+        color: #999;
+        opacity: 1;
+      }
+      &:-ms-input-placeholder {
+        color: #999;
+      }
+      &::-webkit-input-placeholder {
+        color: #999;
+      }
+      &::-ms-expand {
+        border: 0;
+        background-color: transparent;
+      }
+      .form-control[disabled], fieldset[disabled] .form-control {
+        cursor: not-allowed;
+      }
+    }
+  }
+  .control-group {
+    margin-bottom: 10px;
+  }
+  legend, .btn {
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  fieldset {
+	> .controls {
+		margin: -15px 0 10px;
+		@include rtl-margin-left(214px);
+	}
+  }
+  > .control-group {
+	margin-bottom: 0;
+  }
+}
+
+.remind {
+  > form {
+    > fieldset {
+      > p {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .control-group {
+    // max-width: 370px;
+    // margin: 0 auto 20px;
+  }
+}
+fieldset {
+}
+.reset{
+  > form {
+    > fieldset {
+      > p {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+// User-registration
+.calendar-container table {
+	max-width: 252px;
+	+ .buttons-wrapper {
+		button[type="button"] {
+			padding-left: 23px;
+			padding-right: 23px;
+		}
+	}
+	.day-name {
+		font-size: 1.1rem;
+		font-weight: bold;
+	}
+	.calendar-head-row td.nav .js-btn {
+		display: inline-block !important;
+		margin-top: 1px;
+	}
+}
+.registration {
+  #member-registration {
+    fieldset + fieldset {
+      margin-bottom: 5px;
+	  .control-group:last-child {
+		margin-bottom: 0;
+		.control-label {
+			padding-top: 0;
+		}
+	  }
+    }
+    legend {
+      border-bottom: 1px solid #E7EAEE;
+      margin-bottom: 20px;
+    }
+    .control-group {
+      // max-width: 530px;
+      // margin-left: auto;
+      // margin-right: auto;
+      .control-label {
+        width: 200px;
+        span.spacer {
+          margin-bottom: 20px;
+          display: block;
+        }
+        #jform_spacer-lbl {
+          
+        }
+      }
+      .controls {
+        @include rtl-margin-left(215px);
+        .btn#jform_profile_dob_btn {
+			padding: 11px 12px 10px;
+			vertical-align: bottom;
+        }
+		button[type="submit"] {
+			padding: 10px 20px;
+		}
+		#jform_profile_tos {
+			padding: 0 2px 0 !important;
+			input {
+				margin: 5px 5px 0 0 !important;
+			}
+		}
+      }
+    }
+  }
+}
+
+#user-registration,
+#member-registration {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  .control-group {
+    &:before {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  legend {
+    color: #394a5c;
+    border: 0;
+    font-weight: bold;
+  }
+  button.btn{
+
+  }
+}
+
+.remind,
+.reset {
+  input[type="email"] {
+    min-width: 251px;
+  }
+
+}
+
+.profile {
+  legend, dt, dd {
+    //font-size: 14px;
+    //-webkit-font-smoothing: auto;
+  }
+  legend {
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  > .btn-toolbar {
+    margin-bottom: -30px;
+    @include rtl-padding-left(0);
+    background: #fff;
+    > .btn-group {
+      > a.btn {
+        padding: 10px 35px;
+		&.btn-default {
+			color: #fff;
+			border: none;
+		}
+      }
+    }
+  }
+  dt, dd {
+    line-height: 30px;
+    width: 180px;
+
+  }
+  .dl-horizontal {
+    dd {
+      min-width: 200px;
+      @include rtl-text-align-left();
+      @include rtl-margin-left(210px);
+    }
+  }
+  [id^="users-profile-"] {
+    clear: both;
+    text-align: center;
+	margin-bottom: 0;
+    dl.dl-horizontal {
+      display: inline-block;
+	  margin-bottom: 0;
+    }
+  }
+  .icon-user:before {
+    font-family: fontAwesome;
+    content: '\f007';
+    padding-right: 3px;
+  }
+   .btn-group{
+     padding: 0;
+   }
+}
+
+.profile-edit {
+	fieldset > .controls {
+		margin-bottom: 10px;
+		margin-top: -5px;
+	}
+  .control-group {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    .control-label {
+      width: 250px;
+      @include rtl-margin-right(20px);
+    }
+    .controls {
+      @include rtl-margin-left(270px);
+      .chzn-container {
+        min-width: 250px !important;
+		.chzn-single {
+			border-color: #dcdcdc;
+			border-radius: 0;
+			box-shadow: none;
+			min-height: 40px;
+			line-height: 40px;
+			background: transparent;
+			div b {
+				background-position: 0 8px;
+				margin: 2px 0;
+			}
+		}
+      }
+
+      .btn {
+		&#jform_profile_dob_btn {
+			padding: 11px 12px 10px;
+			vertical-align: bottom;
+		}
+        &#helpsite-refresh {
+            padding: 10px 20px;
+			vertical-align: inherit;
+			@include rtl-margin-left(5px);
+        }
+      }
+		button[type="submit"] {
+			padding: 10px 20px;
+		}
+    }
+  }
+  .well {
+    background: transparent;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    padding: 0;
+	margin-bottom: 0;
+	> .control-group {
+		margin-bottom: 0;
+	}
+  }
+  #member-profile{
+    > fieldset:first-child {
+      margin-bottom: 20px;
+	   + fieldset {
+		margin-bottom: 18px;
+		+ fieldset {
+			.control-group:last-child .control-label {
+				padding-top: 0;
+			}
+		}
+	   }
+    }
+  }
+}
+
+.profile-edit,
+.profile {
+  legend {
+    margin-bottom: 20px;
+    font-weight: bold;
+	padding-bottom: 5px;
+  }
+}
+
+[id*="member-"] {
+  input[type="email"], input[type="password"], input[type="text"], textarea, input[type="tel"], input[type="url"] {
+    min-width: 250px;
+  }
+}
+
+.sunfw-login-nav {
+  .nav {
+    // padding-top: 10px;
+    border: none;
+    li {
+      padding: 0;
+      a {
+        padding: 0px;
+        border: none;
+        &:hover {
+          background: transparent;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: $screen-sm-max) and (min-width: $screen-sm-min) {
+  .profile-edit {
+    .control-group {
+      .control-label {
+        width: 200px;
+      }
+      .controls {
+        @include rtl-margin-left(230px);
+        btn#helpsite-refresh {
+          margin-top: 20px;
+          @include rtl-margin-left(0px);
+        }
+      }
+    }
+  }
+}

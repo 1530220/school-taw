@@ -1,0 +1,35 @@
+#menu_item_menu {
+  background-color: #fff;
+}
+#menu_item_menu ul.navbar-nav > li > a, #menu_item_menu ul.navbar-nav > li > span.nav-header {
+  font-size: 16px;
+  color: #4d4d4d;
+  font-family: 'Archivo Narrow';
+  font-weight: 500;
+}
+#menu_item_menu ul.navbar-nav > li:hover > a, #menu_item_menu ul.navbar-nav > li.active > a, #menu_item_menu ul.navbar-nav > li:hover > span.nav-header, #menu_item_menu ul.navbar-nav > li.active > span.nav-header {
+  color: #fc6858;
+  background-color: #fff;
+}
+#menu_item_menu ul.dropdown-menu, #menu_item_menu ul.sunfw-megamenu-sub-menu, #menu_item_menu .modulecontainer ul.nav-child {
+  background-color: #fff;
+}
+#menu_item_menu ul.dropdown-menu li a, #menu_item_menu ul.sunfw-megamenu-sub-menu li a, #menu_item_menu .modulecontainer ul.nav-child li a, #menu_item_menu ul.dropdown-menu li span.nav-header, #menu_item_menu ul.sunfw-megamenu-sub-menu li span.nav-header, #menu_item_menu .modulecontainer ul.nav-child li span.nav-header {
+  font-size: 14px;
+  color: #4d4d4d;
+}
+#menu_item_menu ul.dropdown-menu li a:hover, #menu_item_menu ul.sunfw-megamenu-sub-menu li a:hover, #menu_item_menu .modulecontainer ul.nav-child li a:hover, #menu_item_menu ul.dropdown-menu li span.nav-header:hover, #menu_item_menu ul.sunfw-megamenu-sub-menu li span.nav-header:hover, #menu_item_menu .modulecontainer ul.nav-child li span.nav-header:hover, #menu_item_menu ul.dropdown-menu li a:focus, #menu_item_menu ul.sunfw-megamenu-sub-menu li a:focus, #menu_item_menu .modulecontainer ul.nav-child li a:focus, #menu_item_menu ul.dropdown-menu li span.nav-header:focus, #menu_item_menu ul.sunfw-megamenu-sub-menu li span.nav-header:focus, #menu_item_menu .modulecontainer ul.nav-child li span.nav-header:focus, #menu_item_menu ul.dropdown-menu li a.current, #menu_item_menu ul.sunfw-megamenu-sub-menu li a.current, #menu_item_menu .modulecontainer ul.nav-child li a.current, #menu_item_menu ul.dropdown-menu li span.nav-header.current, #menu_item_menu ul.sunfw-megamenu-sub-menu li span.nav-header.current, #menu_item_menu .modulecontainer ul.nav-child li span.nav-header.current {
+  background-color: #fff;
+  color: #fc6858;
+}
+#menu_item_menu ul.dropdown-menu li.active > a, #menu_item_menu ul.sunfw-megamenu-sub-menu li.active > a, #menu_item_menu .modulecontainer ul.nav-child li.active > a, #menu_item_menu ul.dropdown-menu li.active > span.nav-header, #menu_item_menu ul.sunfw-megamenu-sub-menu li.active > span.nav-header, #menu_item_menu .modulecontainer ul.nav-child li.active > span.nav-header {
+  background-color: #fff;
+  color: #fc6858;
+}
+#menu_item_menu ul.sunfw-megamenu-sub-menu li.current > a, #menu_item_menu ul.sunfw-megamenu-sub-menu li.current > span.nav-header {
+  background-color: #fff;
+  color: #fc6858;
+}
+#menu_item_menu ul.dropdown-menu, #menu_item_menu ul.sunfw-megamenu-sub-menu ul {
+  width: 250px;
+}

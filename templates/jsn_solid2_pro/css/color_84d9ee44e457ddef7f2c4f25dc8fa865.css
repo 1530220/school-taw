@@ -1,0 +1,114 @@
+/* ============================ */
+body .main-color {
+  color: #76990c;
+}
+body .bg-main-color {
+  background-color: #76990c;
+}
+.item-page.edit #com-content-formTabs > li:hover > a, .item-page.edit #com-content-formTabs > li.active > a, .main-menu ul.sunfw-tpl-menu > li.active:before, .main-menu ul.sunfw-tpl-menu > li:hover:before {
+  background: #76990c;
+}
+.link-action {
+  color: #76990c !important;
+}
+.welcome h3 {
+  color: #76990c !important;
+}
+.module-style-1 .module-title .box-title span:first-letter, .module-style-3 .module-title .box-title span:first-letter {
+  color: #76990c;
+}
+.module-style-1 .module-title .box-title:first-letter, .module-style-3 .module-title .box-title:first-letter {
+  color: #76990c;
+}
+.module-style-1 .module-title .box-title.title-special, .module-style-3 .module-title .box-title.title-special {
+  background: #76990c;
+  border-left: 3px solid #526a08;
+  border-bottom-color: #76990c !important;
+}
+.module-style-4 .module-title .box-title .module-style-2 .module-title .box-title {
+  border-color: #566821;
+}
+.footer .module-title:first-letter {
+  color: #76990c;
+}
+.item-student a {
+  color: #76990c;
+}
+.menu.menu-treemenu li.active > a {
+  color: #76990c;
+}
+.main-menu ul.sunfw-tpl-menu > li.active > a:before, .main-menu ul.sunfw-tpl-menu > li.active > span:before, .main-menu ul.sunfw-tpl-menu > li:hover > a:before, .main-menu ul.sunfw-tpl-menu > li:hover > span:before, .sunfw-scrollup {
+  background: #76990c;
+}
+.menu-topmenu ul li {
+  border-bottom: 2px solid #76990c;
+}
+.menu-topmenu ul li:hover {
+  background: #76990c;
+  border: 1px solid #76990c;
+}
+.main-menu .navbar-default .navbar-toggle {
+  background: #76990c;
+  border-color: #76990c;
+}
+.btn-border {
+  border-bottom-color: #76990c !important;
+}
+ul.nav[class*='menu-treemenu'] li.current > a, .pagination > .active > a, div.pagination ul.pagination li a:hover {
+  color: #76990c;
+}
+.countdown-layout .pb-countdown__inner > [class*="pb-countdown__"] > span, .footer ul.nav.menu li a:hover, .blog-featured h2.item-title a:hover, .blog h2.item-title a:hover, .blog-featured .readmore .btn[class*="btn-"], .blog .readmore .btn[class*="btn-"], .kfrontend .btn-link, .pagination > li > a, .pagination > li > span {
+  color: #76990c;
+}
+.text-main-color {
+  color: #76990c !important;
+}
+.text-main-color > span {
+  color: #76990c !important;
+}
+.item-page.edit form#adminForm > .btn-toolbar .btn-group:first-child + .btn-group button.btn:not(.btn-primary) {
+  border-bottom-color: #76990c;
+}
+.module-title .box-title.title-special, .profile > .btn-toolbar > .btn-group > a.btn.btn-default, .profile-edit .control-group .controls .btn#helpsite-refresh, .carousel-indicators li.active, #finder-search button.btn + a[href="#advancedSearch"] {
+  background: #76990c;
+}
+.hover-icon a:hover {
+  border-color: #76990c !important;
+  color: #76990c !important;
+}
+.sunfw-social .social li i:hover {
+  border-color: #76990c;
+  color: #76990c !important;
+}
+#finder-search button.btn:hover {
+  background-color: #76990c;
+  border-color: #76990c;
+}
+.accordion-style > .accordion__item[data-active="true"] {
+  border-color: #76990c !important;
+}
+/* ============================ Sub Color ============================ */
+.profile-edit .control-group .controls .btn#helpsite-refresh:hover, body .bg-main-color:hover {
+  background-color: #526a08;
+}
+.item-page.edit #com-content-formTabs > li.active > a {
+  border-color: #526a08;
+}
+#finder-search button.btn + a[href="#advancedSearch"]:hovers {
+  background: #526a08;
+}
+.module-title .box-title.title-special, .border-sub-color {
+  border-color: #526a08;
+}
+.text-main-color:hover, .link-action:hover {
+  color: #526a08 !important;
+}
+.link-action:before {
+  background: #526a08;
+}
+a:hover, a.link:hover {
+  color: #526a08;
+}
+.btn-primary:active:hover, .sunfw-scrollup:hover, .sunfw-scrollup:focus {
+  background-color: #526a08;
+}

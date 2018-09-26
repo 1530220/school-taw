@@ -1,0 +1,11 @@
+.blog-featured .items-leading [class*="leading-"] .item-image {
+  margin-right: 0; }
+
+@media (max-width: 991px) {
+  .sunfw-logo img.logo {
+    margin: 0; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  .main-menu ul.sunfw-tpl-menu > li > a, .main-menu ul.sunfw-tpl-menu > li > span.nav-header {
+    padding: 20px 13px; } }
+
+/*# sourceMappingURL=template.css.map */

@@ -1,0 +1,44 @@
+body#sunfw-master .module-style-2 {
+  border-bottom-style: initial;
+}
+body#sunfw-master .module-style-2 .module-title .box-title {
+  background: #e27b00;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+body#sunfw-master .module-style-1 .module-title .box-title {
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+body#sunfw-master .module-style-3 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: #f8f8f8;
+  border-bottom-style: initial;
+}
+body#sunfw-master .module-style-3 .module-title .box-title {
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+body#sunfw-master .module-style-4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: #f6f6f6;
+}
+body#sunfw-master .module-style-4 .module-title .box-title {
+  background: #e27b00;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}

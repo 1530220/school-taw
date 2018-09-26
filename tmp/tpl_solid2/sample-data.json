@@ -1,0 +1,49 @@
+{
+  "developer": [
+    {
+      "id": "solid",
+      "name": "JSN Solid",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_solid_2/thumbnail_solid.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_solid_2/pro/solid",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_solid_2_pro_solid_sample_data_j3x.zip",
+      "tags": []
+    },
+    {
+      "id": "unikingston",
+      "name": "JSN Unikingston",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_solid_2/thumbnail_unikingston.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_solid_2/pro/unikingston",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_solid_2_pro_unikingston_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "individual": [
+    {
+      "id": "unikingston",
+      "name": "JSN Unikingston",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_solid_2/thumbnail_solid.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_solid_2/pro/solid",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_solid_2_pro_solid_sample_data_j3x.zip",
+      "tags": []
+    },
+    {
+      "id": "solid",
+      "name": "JSN Solid",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_solid_2/thumbnail_unikingston.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_solid_2/pro/unikingston",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_solid_2_pro_unikingston_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "free": [
+    {
+      "id": "solid",
+      "name": "JSN Solid",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_solid_2/thumbnail_solid.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_solid_2/pro/solid",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_solid_2_pro_solid_sample_data_j3x.zip",
+      "tags": []
+    }
+  ]
+}
+

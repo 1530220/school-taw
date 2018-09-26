@@ -1,0 +1,224 @@
+{
+	"groups": [
+		{
+			"id": "general",
+			"title": "JSN_POWERADMIN_CONFIG_GENERAL",
+			"controls": {
+				"enable_adminbar": {
+					"type": "radio",
+					"inline": true,
+					"label": "JSN_POWERADMIN_CONFIG_ENABLE_ADMINBAR",
+					"hint": "JSN_POWERADMIN_CONFIG_ENABLE_ADMINBAR_DESC",
+					"options": [
+						{
+							"label": "JNO",
+							"value": 0
+						},
+						{
+							"label": "JYES",
+							"value": 1
+						}
+					],
+					"default": 1,
+					"filter": "uint",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				}
+			}
+		},
+		{
+			"id": "logo",
+			"title": "JSN_POWERADMIN_CONFIG_LOGO",
+			"controls": {
+				"logo_file": {
+					"type": "image-selector",
+					"label": "JSN_POWERADMIN_CONFIG_LOGO_FILE",
+					"hint": "JSN_POWERADMIN_CONFIG_LOGO_FILE_DESC",
+					"default": "plugins/system/poweradmin2/assets/img/logo.png",
+					"filter": "path",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				},
+				"logo_link": {
+					"type": "text",
+					"label": "JSN_POWERADMIN_CONFIG_LOGO_LINK",
+					"hint": "JSN_POWERADMIN_CONFIG_LOGO_LINK_DESC",
+					"default": "http://www.joomlashine.com/joomla-extensions/jsn-poweradmin.html",
+					"filter": "string",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				},
+				"logo_target": {
+					"type": "select",
+					"label": "JSN_POWERADMIN_CONFIG_LOGO_LINK_TARGET",
+					"hint": "JSN_POWERADMIN_CONFIG_LOGO_LINK_TARGET_DESC",
+					"options": [
+						{
+							"label": "JSN_POWERADMIN_CONFIG_LOGO_LINK_TARGET_NEW_BROWSER",
+							"value": "_blank"
+						},
+						{
+							"label": "JSN_POWERADMIN_CONFIG_LOGO_LINK_TARGET_CURRENT_BROWSER",
+							"value": "_self"
+						}
+					],
+					"default": "_blank",
+					"filter": "word",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				},
+				"logo_slogan": {
+					"type": "text",
+					"label": "JSN_POWERADMIN_CONFIG_LOGO_SLOGAN",
+					"hint": "JSN_POWERADMIN_CONFIG_LOGO_SLOGAN_DESC",
+					"default": "PLG_JSNADMINBAR_CONFIG_LOGO_SLOGAN_DEFAULT",
+					"filter": "string",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				}
+			}
+		},
+		{
+			"id": "components",
+			"title": "JSN_POWERADMIN_CONFIG_COMPONENTS",
+			"controls": {
+				"allow_uninstall": {
+					"type": "radio",
+					"inline": true,
+					"label": "JSN_POWERADMIN_CONFIG_ENABLE_UNINSTALL_MENU",
+					"hint": "JSN_POWERADMIN_CONFIG_ENABLE_UNINSTALL_MENU_DESC",
+					"options": [
+						{
+							"label": "JNO",
+							"value": 0
+						},
+						{
+							"label": "JYES",
+							"value": 1
+						}
+					],
+					"default": 1,
+					"filter": "uint",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				}
+			}
+		},
+		{
+			"id": "users",
+			"title": "JSN_POWERADMIN_CONFIG_USER",
+			"controls": {
+				"admin_session_timeout_warning": {
+					"type": "number",
+					"label": "JSN_POWERADMIN_CONFIG_SESSION_TIMEOUT_WARNING",
+					"hint": "JSN_POWERADMIN_CONFIG_SESSION_TIMEOUT_WARNING_DESC",
+					"suffix": "JSN_POWERADMIN_CONFIG_SESSION_TIMEOUT_MINUTES",
+					"default": 1,
+					"filter": "uint",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				},
+				"admin_session_timeout_warning_disabled": {
+					"type": "checkbox",
+					"inline": true,
+					"multiple": false,
+					"label": "JSN_POWERADMIN_CONFIG_SESSION_TIMEOUT_OR",
+					"options": [
+						{
+							"label": "JSN_POWERADMIN_CONFIG_SESSION_TIMEOUT_DISABLE",
+							"value": 1
+						}
+					],
+					"default": 0,
+					"filter": "uint",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				}
+			}
+		},
+		{
+			"id": "history",
+			"title": "JSN_POWERADMIN_CONFIG_HISTORY",
+			"controls": {
+				"history_count": {
+					"type": "number",
+					"label": "JSN_POWERADMIN_CONFIG_HISTORY_COUNT",
+					"hint": "JSN_POWERADMIN_CONFIG_HISTORY_COUNT_DESC",
+					"suffix": "JSN_POWERADMIN_CONFIG_ITEM_TEXT",
+					"default": 30,
+					"filter": "uint",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				}
+			}
+		},
+		{
+			"id": "spotlight-search",
+			"title": "JSN_POWERADMIN_CONFIG_SEARCH",
+			"controls": {
+				"search_result_num": {
+					"type": "number",
+					"label": "JSN_POWERADMIN_CONFIG_SEARCH_RESULTS_COUNT",
+					"hint": "JSN_POWERADMIN_CONFIG_SEARCH_RESULTS_COUNT_DESC",
+					"suffix": "JSN_POWERADMIN_CONFIG_ITEM_TEXT",
+					"default": 10,
+					"filter": "uint",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				},
+				"search_trashed": {
+					"type": "radio",
+					"inline": true,
+					"label": "JSN_POWERADMIN_CONFIG_SEARCH_TRASHED",
+					"hint": "JSN_POWERADMIN_CONFIG_SEARCH_TRASHED_DESC",
+					"options": [
+						{
+							"label": "JNO",
+							"value": 0
+						},
+						{
+							"label": "JYES",
+							"value": 1
+						}
+					],
+					"default": 1,
+					"filter": "uint",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				},
+				"search_coverages": {
+					"type": "sortable",
+					"items": "index.php?option=com_poweradmin2&task=ajax.getSearchCoverages",
+					"checkbox": true,
+					"label": "JSN_POWERADMIN_CONFIG_SEARCH_COVERAGES",
+					"hint": "JSN_POWERADMIN_CONFIG_SEARCH_COVERAGES_DESC",
+					"default": {
+						"articles": 1,
+						"categories": 1,
+						"menus": 1,
+						"users": 1,
+						"components": 1,
+						"modules": 1,
+						"plugins": 1,
+						"templates": 1
+					},
+					"filter": "array",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				}
+			}
+		}
+	]
+}

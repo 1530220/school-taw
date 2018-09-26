@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_PA2VOTE</name>
+	<author>JoomlaShine.com</author>
+	<releaseDate>09/11/2018</releaseDate>
+	<authorEmail>support@joomlashine.com</authorEmail>
+	<authorUrl>http://www.joomlashine.com</authorUrl>
+	<copyright>Copyright (c) 2012 - JoomlaShine.com</copyright>
+	<license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0.2</version>
+	<description>PLG_CONTENT_PA2VOTE_XML_DESC</description>
+	<files>
+		<folder>tmpl</folder>
+		<filename>index.html</filename>
+		<filename plugin="pa2vote">pa2vote.php</filename>
+		<filename>pa2vote.xml</filename>
+	</files>
+</extension>

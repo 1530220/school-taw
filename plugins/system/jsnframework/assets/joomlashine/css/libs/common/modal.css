@@ -1,0 +1,55 @@
+/**
+ * @version    $Id$
+ * @package    JSN_Framework
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+/**
+ * Modal.
+ */
+.modal-container {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	outline: 0;
+	overflow: hidden;
+	z-index: 999999999;
+}
+.modal-container:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	content: ' ';
+	background: rgba(0, 0, 0, 0.5);
+}
+.modal-container .modal-dialog {
+	position: fixed;
+	top: 0;
+	left: 25%;
+	width: 50%;
+}
+.modal-container .modal-header .close {
+	border: 0;
+	font-size: 16.5px;
+	line-height: 1;
+}
+.modal-container .modal-body {
+	color: initial;
+}
+.modal-container .modal-body .row + .row {
+	margin-top: 15px;
+}
+.modal-container .modal-body iframe {
+	height: inherit;
+}

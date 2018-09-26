@@ -1,0 +1,76 @@
+/*!
+ * Sun Framework
+ * Copyright 2016 Joomlashine.
+ * @file _module-style.scss
+ */
+//
+// Module Styles
+// --------------------------------------------------
+.module-style-4,
+.module-style-2 {
+	.module-body {
+		padding: 5px 0 0;
+	}
+	.module-title .box-title {
+		padding: 6px 10px;
+		i {
+			vertical-align: inherit;
+		}
+	}
+}
+// Module 
+.module-style {
+	.module-body {
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+.module-title {
+    .box-title {
+		margin-top: 0;
+		padding-bottom: 5px;
+		padding-top: 0;
+		line-height: 1.5;
+        i {
+            @include rtl-margin-right(8px);
+            min-width: 20px;
+        }
+        span {
+            display: inline-block;
+            &:first-letter {
+                color: $primary-color;
+            }
+        }
+        &.title-special {
+            color: #fff;
+			border-width: 0 0 0 3px;
+			border-style: solid;
+            margin-bottom: 20px;
+			text-transform: uppercase;
+             span {
+                &:first-letter {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.module-style-1 .module-title,
+.module-style-3 .module-title {
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+	padding-top: 2px;
+	border-bottom: 2px solid #4d4d4d;
+	.box-title {
+		margin-bottom: 0;
+	}
+}
+.module-style-2 .module-title,
+.module-style-4 .module-title {
+	border-width: 0 0 0 3px;
+	border-style: solid;
+}
+.module-style-4 .module-title {
+	margin: -20px -20px 0;
+}
